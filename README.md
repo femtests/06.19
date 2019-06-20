@@ -1,20 +1,21 @@
 Hello!
 ======
 
-THe server does not really have an interface, except this readme.
+The server does not really have an interface, except this readme which will 
+ appear when accessing the root (it is not really valid HTML but browsers 
+ nowadays are smart enough to put in the missing pieces) 
 
-Let's try that I took the opportunity to try out the
+So I took the opportunity to try out the
  [AIOHTTP](https://aiohttp.readthedocs.io/en/stable/)
  library.
 
-
-the server is a bare minimum and I didn't reallly finish with the unittest.
+The server is a bare minimum and I did not really finish with the unittest.
 
 Entry points
 ============
 
 ### `/timestamp`
-Returns the Unix TImestamp since the epch in milliseconds
+Returns the Unix Timestamp since the epoch in milliseconds
 
 Example: http://0.0.0.0:9990/timestamp
 ### `/files/{id}[?[max_bytes={number of bytes: positive integer}]]`

@@ -40,8 +40,8 @@ To deploy you can either use your host machine or Docker.
 
 ### Host machine
 1. Create A virtual environment and run `pip intall -r requirements.txt`.
-2. Run `gunicorn app:app --bind 0.0.0.0:9090 --worker-class aiohttp.GunicornWebWorker`
-3. The webserver should be listening to the url `http://0.0.0.0:9090`
+2. Run `gunicorn app:app --bind 0.0.0.0:9990 --worker-class aiohttp.GunicornWebWorker`
+3. The webserver should be listening to the url `http://0.0.0.0:9990`
 
 
 ### Docker
